@@ -1,0 +1,343 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #0B6623;
+}
+.bare-navigation{
+  background-color: #0B6623
+}
+.bar{
+  color: white;
+}
+.bar:hover {
+  background-color: white; /* Vert plus foncé au survol */
+  border-color: black;
+}
+.bouton-vert-custom {
+  border: 2px solid #0B6623; /* bordure verte personnalisée */
+  background-color: white;
+  border-radius: 6px;
+}
+
+/* Pour changer la couleur de l’icône */
+.bouton-vert-custom .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='green' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.logo{
+  width: 150px;
+  height:auto;
+  max-height:150px;
+  background: white;
+}
+.p1{
+  width: 20px;
+  height: 140px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  max-width: none;
+}
+.p2{
+  
+  width: 20px;
+  height: 140px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  max-width: none;
+}
+.pr{
+  color: #0B6623;
+  font-family: "Roboto", Sans-serif;
+  font-size: 21px;
+  font-style: italic;
+  line-height: 30px;
+}
+.ps{
+  background: #0B6623;
+  color: white;
+}
+.vision{
+  background: #0B6623;
+  color: white;
+}
+.excellence{
+  background: #0B6623;
+  color: white;
+}
+footer {
+      background: #0B6623;
+      color: white;
+      padding: 20px 0;
+}
+.intro {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* pleine hauteur */
+  overflow: hidden;
+}
+
+.bg-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  opacity: 0.7; /* facultatif : un peu de transparence */
+}
+
+
+
+.video-content {
+  position: relative;
+  z-index: 2;
+  padding: 4rem;
+}
+
+.liste {
+  background-color: #0B6623; /* Vert personnalisé (style Bootstrap success) */
+  border: 1px solid #0B6623;
+  color: white;
+  font-size: 18px;
+  padding: 12px 24px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.cont{
+  color: white; 
+}
+.bl{
+  color:white; 
+}
+.co{
+  background-color: #0B6623
+}
+.v{
+  background-color: #0B6623;
+  color: white;
+}
+.ph1{
+  color: #0B6623;
+}
+.ph2{
+  color: white;
+}
+.btn-mission {
+  background-color: #0B6623; /* vert personnalisé */
+  color: white;
+  border: 1px solid #155724;
+}
+
+.btn-mission:focus {
+  box-shadow: none;
+}
+
+.btn-mission:not(.collapsed) {
+  background-color: #0B6623; /* si le bouton est actif */
+  color: white;
+}
+.text-mission{
+  color: #0B6623;
+}
+.gauche{
+  background-color: #0B6623; /* si le bouton est actif */
+  color: white;
+}
+.droite{
+  background-color: #0B6623; /* si le bouton est actif */
+  color: white;
+}
+.centre{
+  background-color: #0B6623; /* si le bouton est actif */
+  color: white;
+}
+.bo{
+  border: 2px solid#0B6623 !important;
+}
+.hv{
+  text-decoration: underline;
+}
+.bg-video-section {
+  height: 400px;
+  overflow: hidden;
+}
+
+.video-background-custom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* La vidéo couvre toute la section */
+  z-index: 0;
+}
+.texte-personnalise {
+  color: #0B6623; /* Couleur verte foncée personnalisée */
+}
+.bg-video-liste {
+  height: 400px;
+  overflow: hidden;
+}
+
+.video-background-liste {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* La vidéo couvre toute la section */
+  z-index: 0;
+}
+.texte-personnalise-liste {
+  color: #0B6623; /* Couleur verte foncée personnalisée */
+}
+
+.bg-video-contact {
+  height: 400px;
+  overflow: hidden;
+}
+
+.video-background-contact {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* La vidéo couvre toute la section */
+  z-index: 0;
+}
+.texte-personnalise-contact {
+  color: #0B6623; /* Couleur verte foncée personnalisée */
+}
+.bg-video-catalogue {
+  height: 400px;
+  overflow: hidden;
+}
+
+.video-background-catalogue {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* La vidéo couvre toute la section */
+  z-index: 0;
+}
+.texte-personnalise-catalogue {
+  color: #0B6623; /* Couleur verte foncée personnalisée */
+}
+.bg-video-actualite {
+  height: 400px;
+  overflow: hidden;
+}
+
+.video-background-actualite {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* La vidéo couvre toute la section */
+  z-index: 0;
+}
+.texte-personnalise-actualite {
+  color: #0B6623; /* Couleur verte foncée personnalisée */
+}
+.gauchehistorique{
+  text-align: justify;
+  color: #0B6623;
+  font-family: "Roboto", Sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+.photos{
+  color: white;
+  background-color: #0B6623;
+}
+.hpr{
+  text-decoration: underline;
+}
+.bod{
+  color : white;
+  background-color: #0B6623;
+}
+.catalogue img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-download {
+  display: inline-block;
+  background-color: #0B6623;  /* vert foncé */
+  color: white;               /* texte blanc */
+  padding:  28px 66px;
+  border-radius: 25px;        /* arrondi */
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 30px;
+  transition: all 0.3s ease;
+  border: 2px solid #0B6623; /* bordure verte */
+  cursor: pointer;
+}
+
+.btn-download:hover {
+  background-color: white;    /* fond blanc au survol */
+  color: #0B6623;             /* texte vert au survol */
+  border-color: #0B6623;
+}
+.liste:hover {
+  background-color: white;    /* fond blanc au survol */
+  color: #0B6623;             /* texte vert au survol */
+  border-color: #0B6623;
+}
+
+.catalogue-bouton {
+  display: flex;
+  justify-content: center; /* centre horizontalement */
+  align-items: center;     /* centre verticalement */
+  height: 300px;           /* donne une hauteur à ta section */
+  /* tu peux adapter la hauteur comme tu veux */
+}
+
+.map-section iframe {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.btn-success:hover {
+  background-color: white;    /* fond blanc au survol */
+  color: #0B6623;             /* texte vert au survol */
+  border-color: #0B6623;
+}
+.btn-actualite {
+  display: inline-block;
+  background-color: #0B6623;  /* vert foncé */
+  color: white;               /* texte blanc */
+  padding:  14px 20px;
+  border-radius: 25px;        /* arrondi */
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  transition: all 0.3s ease;
+  border: 2px solid #0B6623; /* bordure verte */
+  cursor: pointer;
+}
+
+.btn-actualite:hover {
+  background-color: white;    /* fond blanc au survol */
+  color: #0B6623;             /* texte vert au survol */
+  border-color: #0B6623;
+}
+.c-actualite{
+  color: #0B6623;
+}
+
